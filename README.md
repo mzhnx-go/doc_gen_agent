@@ -19,7 +19,7 @@
 - **文档处理**：python-docx, python-docxtpl, pypdf
 - **图像处理**：OpenCV, Tesseract OCR
 - **前端**：Streamlit
-- **数据库**：MySQL
+- **数据库**：PostgreSQL
 
 ## 快速开始
 
@@ -50,10 +50,10 @@ llm:
   base_url: "http://localhost:1234/v1"
   model: "qwen3.5-4b@q4_k_s" (换成使用的模型)
 
-# MySQL 配置 (可选)
+# PostgreSQL 配置 (可选)
 database:
   host: "localhost"
-  port: 3306
+  port: 5432
   user: "root"
   password: "root"
   database: "doc_gen_agent"

@@ -12,6 +12,12 @@ class WordEngine:
     
     def __init__(self, templates_dir: str) -> None:
         """初始化 Word 引擎"""
+        # 如果是相对路径，转换为绝对路径（相对于项目根目录）
+        if not os.path.isabs(templates_dir):
+            # 获取项目根目录
+            project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+            templates_dir = os.path.join(project_root, templates_dir)
+        
         self.templates_dir = templates_dir
         # 确保模板目录存在
         os.makedirs(self.templates_dir, exist_ok=True)
