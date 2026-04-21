@@ -1,0 +1,14 @@
+{{title}}
+
+{{#sections}}
+{{level}}. {{title}}
+
+{{content}}
+
+{{#subsections}}
+{{level}}.{{level}} {{title}}
+
+{{content}}
+
+{{/subsections}}
+{{/sections}}

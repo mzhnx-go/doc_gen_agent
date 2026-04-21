@@ -1,0 +1,26 @@
+# 核心依赖
+langchain
+langchain_ollama
+openai
+requests
+PyYAML
+
+# 文档处理
+python-docx
+docxtpl
+pypdf
+
+# 图像处理
+Pillow
+pytesseract
+opencv-python
+
+# 数据库
+sqlalchemy
+mysql-connector-python
+
+# 前端
+streamlit
+
+# 其他
+numpy

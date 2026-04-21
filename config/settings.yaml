@@ -1,0 +1,40 @@
+# 全局配置文件
+
+# LM Studio 配置
+llm:
+  base_url: "http://localhost:1234/v1"
+  model: "qwen3.5-4b@q4_k_s"
+  temperature: 0.7
+  max_tokens: 4096
+  timeout: 200
+
+# MySQL 数据库配置
+database:
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: "amazarashi46"
+  database: "doc_gen_agent"
+
+# 文件路径配置
+paths:
+  templates: "templates"
+  output: "output"
+  uploads: "uploads"
+  rag_knowledge: "rag_knowledge"
+
+# 多模态处理配置
+multimodal:
+  max_file_size: 50  # MB
+  supported_formats:
+    documents: [".pdf", ".docx", ".txt"]
+    images: [".png", ".jpg", ".jpeg"]
+  ocr:
+    enabled: true
+    lang: "chi_sim+eng"
+
+# RAG 配置
+rag:
+  chunk_size: 1000
+  chunk_overlap: 200
+  top_k: 3

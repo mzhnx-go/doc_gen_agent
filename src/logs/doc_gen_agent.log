@@ -1,0 +1,251 @@
+2026-04-21 15:39:54 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b, URL: http://localhost:1234/v1
+2026-04-21 15:39:54 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 15:39:54 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 15:39:54 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 15:39:54 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 15:41:44 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b, URL: http://localhost:1234/v1
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 开始解析文件: D:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 文件解析完成: D:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 15:41:44 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 15:41:44 - doc_gen_agent - ERROR - 文档处理失败: Invalid format specifier ' 1, "title": "标题1", "content": "内容说明"' for object of type 'str'
+2026-04-21 15:46:02 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b, URL: http://localhost:1234/v1
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 开始解析文件: D:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 文件解析完成: D:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 15:46:02 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 15:46:52 - doc_gen_agent - INFO - 文档规划完成，类型: 测试报告
+2026-04-21 15:46:52 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 测试报告
+2026-04-21 15:46:52 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 15:46:55 - doc_gen_agent - INFO - 文档标题生成完成: 多模态输入与文档规划生成系统测试报告
+2026-04-21 15:46:55 - doc_gen_agent - INFO - 生成章节 1/6: 引言
+2026-04-21 15:47:37 - doc_gen_agent - INFO - 生成章节 2/6: 多模态输入测试
+2026-04-21 15:48:39 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:50:42 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:50:42 - doc_gen_agent - INFO - 生成章节 3/6: 文档规划测试
+2026-04-21 15:51:37 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 开始解析文件: D:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 文件解析完成: D:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 15:51:37 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 15:52:29 - doc_gen_agent - INFO - 文档规划完成，类型: 测试报告
+2026-04-21 15:52:29 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 测试报告
+2026-04-21 15:52:29 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 15:52:33 - doc_gen_agent - INFO - 文档标题生成完成: 多模态输入、文档规划及生成全流程测试报告
+2026-04-21 15:52:33 - doc_gen_agent - INFO - 生成章节 1/6: 引言
+2026-04-21 15:52:45 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:53:34 - doc_gen_agent - INFO - 生成章节 2/6: 多模态输入测试
+2026-04-21 15:53:47 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:53:47 - doc_gen_agent - INFO - 生成章节 4/6: 内容生成测试
+2026-04-21 15:54:36 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:54:49 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:55:38 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:55:52 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:56:40 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:56:40 - doc_gen_agent - INFO - 生成章节 3/6: 文档规划测试
+2026-04-21 15:56:54 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:56:54 - doc_gen_agent - INFO - 生成章节 5/6: 模板渲染测试
+2026-04-21 15:57:42 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:57:56 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:58:44 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:58:58 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:59:46 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 15:59:46 - doc_gen_agent - INFO - 生成章节 4/6: 内容生成测试
+2026-04-21 16:00:00 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 16:00:00 - doc_gen_agent - INFO - 生成章节 6/6: 结论与建议
+2026-04-21 16:00:48 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 16:01:02 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 16:01:02 - doc_gen_agent - INFO - 文档内容生成完成
+2026-04-21 16:01:02 - doc_gen_agent - INFO - 步骤3: 内容生成完成
+2026-04-21 16:01:02 - doc_gen_agent - ERROR - 文档处理失败: [Errno 2] No such file or directory: 'templates\\default_template.docx'
+2026-04-21 16:02:12 - doc_gen_agent - INFO - 生成章节 5/6: 模板渲染测试
+2026-04-21 16:03:14 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 16:05:14 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 16:05:14 - doc_gen_agent - INFO - 生成章节 6/6: 总结与建议
+2026-04-21 16:06:16 - doc_gen_agent - ERROR - LLM 请求错误: HTTPConnectionPool(host='localhost', port=1234): Read timed out. (read timeout=60)
+2026-04-21 16:06:16 - doc_gen_agent - INFO - 文档内容生成完成
+2026-04-21 16:06:16 - doc_gen_agent - INFO - 步骤3: 内容生成完成
+2026-04-21 16:06:16 - doc_gen_agent - ERROR - 文档处理失败: [Errno 2] No such file or directory: 'templates\\default_template.docx'
+2026-04-21 16:11:06 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 16:11:06 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 开始解析文件: D:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 文件解析完成: D:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 16:11:06 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 16:11:33 - doc_gen_agent - INFO - 文档规划完成，类型: 测试报告
+2026-04-21 16:11:33 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 测试报告
+2026-04-21 16:11:33 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 16:11:37 - doc_gen_agent - INFO - 文档标题生成完成: 文档生成智能体功能测试报告
+2026-04-21 16:11:37 - doc_gen_agent - INFO - 生成章节 1/5: 概述
+2026-04-21 16:12:21 - doc_gen_agent - INFO - 生成章节 2/5: 测试环境与工具
+2026-04-21 16:13:24 - doc_gen_agent - INFO - 生成章节 3/5: 测试结果分析
+2026-04-21 16:14:04 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 16:14:04 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 开始解析文件: d:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 文件解析完成: d:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 16:14:04 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 16:14:51 - doc_gen_agent - INFO - 文档规划完成，类型: 测试报告
+2026-04-21 16:14:51 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 测试报告
+2026-04-21 16:14:51 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 16:14:55 - doc_gen_agent - INFO - 文档标题生成完成: 多模态输入与智能文档生成系统测试报告
+2026-04-21 16:14:55 - doc_gen_agent - INFO - 生成章节 1/6: 引言
+2026-04-21 16:15:22 - doc_gen_agent - INFO - 生成章节 2/6: 多模态输入测试
+2026-04-21 16:17:43 - doc_gen_agent - INFO - 生成章节 3/6: 文档规划测试
+2026-04-21 16:20:17 - doc_gen_agent - INFO - 生成章节 4/6: 内容生成测试
+2026-04-21 16:23:08 - doc_gen_agent - INFO - 生成章节 5/6: 模板渲染测试
+2026-04-21 16:26:14 - doc_gen_agent - INFO - 生成章节 6/6: 结论与建议
+2026-04-21 16:27:05 - doc_gen_agent - INFO - 文档内容生成完成
+2026-04-21 16:27:05 - doc_gen_agent - INFO - 步骤3: 内容生成完成
+2026-04-21 16:27:05 - doc_gen_agent - INFO - 创建默认模板: templates\default_template.docx
+2026-04-21 16:27:05 - doc_gen_agent - INFO - 默认模板创建成功: templates\default_template.docx
+2026-04-21 16:27:05 - doc_gen_agent - INFO - 文档保存成功: output\generated_default_template.docx
+2026-04-21 16:27:05 - doc_gen_agent - INFO - 步骤4: 文档渲染完成，输出路径: output\generated_default_template.docx
+2026-04-21 16:38:48 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 16:38:48 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 开始解析文件: d:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 文件解析完成: d:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 16:38:48 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 16:39:19 - doc_gen_agent - INFO - 文档规划完成，类型: 测试报告
+2026-04-21 16:39:19 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 测试报告
+2026-04-21 16:39:19 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 16:39:22 - doc_gen_agent - INFO - 文档标题生成完成: 生成式文档智能体多模态输入与规划测试报告
+2026-04-21 16:39:22 - doc_gen_agent - INFO - 生成章节 1/6: 1. 引言
+2026-04-21 16:40:05 - doc_gen_agent - INFO - 生成章节 2/6: 2. 多模态输入测试
+2026-04-21 16:42:50 - doc_gen_agent - INFO - 生成章节 3/6: 3. 文档规划测试
+2026-04-21 16:43:54 - doc_gen_agent - INFO - 生成章节 4/6: 4. 内容生成测试
+2026-04-21 16:46:47 - doc_gen_agent - INFO - 生成章节 5/6: 5. 模板渲染测试
+2026-04-21 16:47:57 - doc_gen_agent - INFO - 生成章节 6/6: 6. 总结与建议
+2026-04-21 16:49:07 - doc_gen_agent - INFO - 文档内容生成完成
+2026-04-21 16:49:07 - doc_gen_agent - INFO - 步骤3: 内容生成完成
+2026-04-21 16:49:07 - doc_gen_agent - ERROR - Word 渲染错误: [Errno 13] Permission denied: 'output\\generated_default_template.docx'
+2026-04-21 16:49:07 - doc_gen_agent - INFO - 步骤4: 文档渲染完成，输出路径: 
+2026-04-21 17:00:51 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 17:00:51 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 开始解析文件: D:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 文件解析完成: D:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 17:00:51 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 17:01:29 - doc_gen_agent - INFO - 文档规划完成，类型: 测试报告
+2026-04-21 17:01:29 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 测试报告
+2026-04-21 17:01:29 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 17:01:30 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 17:01:30 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 开始解析文件: d:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 文件解析完成: d:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 17:01:30 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 17:01:34 - doc_gen_agent - INFO - 文档标题生成完成: 多模态输入、文档规划与生成全流程测试报告
+2026-04-21 17:01:34 - doc_gen_agent - INFO - 生成章节 1/6: 1. 引言
+2026-04-21 17:02:06 - doc_gen_agent - INFO - 文档规划完成，类型: 测试报告
+2026-04-21 17:02:06 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 测试报告
+2026-04-21 17:02:06 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 17:02:09 - doc_gen_agent - INFO - 文档标题生成完成: 多模态输入与文档规划生成测试报告
+2026-04-21 17:02:09 - doc_gen_agent - INFO - 生成章节 1/6: 引言
+2026-04-21 17:02:38 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 17:02:38 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 开始解析文件: d:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 文件解析完成: d:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 17:02:38 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 17:03:08 - doc_gen_agent - INFO - 文档规划完成，类型: 测试报告
+2026-04-21 17:03:08 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 测试报告
+2026-04-21 17:03:08 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 17:03:11 - doc_gen_agent - INFO - 文档标题生成完成: 多模态输入与文档规划系统测试报告
+2026-04-21 17:03:11 - doc_gen_agent - INFO - 生成章节 1/5: 引言
+2026-04-21 17:03:43 - doc_gen_agent - INFO - 生成章节 2/5: 测试概述
+2026-04-21 17:04:47 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 17:04:47 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 开始解析文件: d:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 文件解析完成: d:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 17:04:47 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 17:10:33 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 17:10:33 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 开始解析文件: d:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 文件解析完成: d:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 17:10:33 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 17:14:53 - doc_gen_agent - INFO - LLM 客户端初始化完成，模型: qwen3.5-4b@q4_k_s, URL: http://localhost:1234/v1
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 文件解析器初始化完成
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 文档规划器初始化完成
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 内容生成器初始化完成
+2026-04-21 17:14:53 - doc_gen_agent - INFO - Word 引擎初始化完成，模板目录: templates
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 工作流控制器初始化完成
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 开始处理文档，输入文件数: 1
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 开始解析文件: d:\AIpy\doc_gen_agent\tests\test_data\test.txt
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 文件解析完成: d:\AIpy\doc_gen_agent\tests\test_data\test.txt, 类型: txt
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 步骤1: 多模态输入解析完成
+2026-04-21 17:14:53 - doc_gen_agent - INFO - 开始规划文档结构
+2026-04-21 17:15:54 - doc_gen_agent - INFO - 文档规划完成，类型: 专业分析报告
+2026-04-21 17:15:54 - doc_gen_agent - INFO - 步骤2: 文档规划完成，类型: 专业分析报告
+2026-04-21 17:15:54 - doc_gen_agent - INFO - 开始生成文档内容
+2026-04-21 17:15:58 - doc_gen_agent - INFO - 文档标题生成完成: 中国旅游业发展现状、趋势与对策分析报告
+2026-04-21 17:15:58 - doc_gen_agent - INFO - 生成章节 1/7: 中国旅游业发展现状与未来趋势分析
+2026-04-21 17:17:16 - doc_gen_agent - INFO - 生成章节 2/7: 中国旅游业市场规模与复苏情况
+2026-04-21 17:20:01 - doc_gen_agent - INFO - 生成章节 3/7: 国内旅游消费行为新变化与新趋势
+2026-04-21 17:22:44 - doc_gen_agent - INFO - 生成章节 4/7: 智慧旅游与数字化技术应用的现状
+2026-04-21 17:25:28 - doc_gen_agent - INFO - 生成章节 5/7: 文旅融合发展现状与典型案例
+2026-04-21 17:28:31 - doc_gen_agent - INFO - 生成章节 6/7: 乡村旅游与休闲度假产业发展情况
+2026-04-21 17:31:27 - doc_gen_agent - INFO - 生成章节 7/7: 可持续发展挑战与对策建议
+2026-04-21 17:34:03 - doc_gen_agent - INFO - 文档内容生成完成
+2026-04-21 17:34:03 - doc_gen_agent - INFO - 步骤3: 内容生成完成
+2026-04-21 17:34:03 - doc_gen_agent - INFO - 文档保存成功: output\generated_中国旅游业发展现状、趋势与对策分析报告_default_template.docx
+2026-04-21 17:34:03 - doc_gen_agent - INFO - 使用文档标题生成文件名: 中国旅游业发展现状、趋势与对策分析报告_default_template.docx
+2026-04-21 17:34:03 - doc_gen_agent - INFO - 步骤4: 文档渲染完成，输出路径: output\generated_中国旅游业发展现状、趋势与对策分析报告_default_template.docx
